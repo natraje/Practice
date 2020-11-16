@@ -1,4 +1,4 @@
-package com.ds.string;
+package com.nat.string;
 
 public class StringTest {
 }
