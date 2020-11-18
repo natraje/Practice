@@ -1,5 +1,7 @@
 package com.nat.util;
-
+/***********************************************
+ * This is string utility class has methods to handle string operations
+ **********************************************/
 public class StringHelper {
 
     public static String substringAndSwap(String str, int first, int second)

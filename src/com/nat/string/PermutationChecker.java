@@ -3,7 +3,10 @@ package com.nat.string;
 import com.nat.util.StringHelper;
 
 import java.util.*;
-
+/***********************************************
+ * This class has an algorithm to recursively print the unique permutations of a given string for all the lower case letters
+ * The logic is iterate the through the string and check same string already present if not call the recursively
+ **********************************************/
 public class PermutationChecker {
 
     public  static void main(String[] a){

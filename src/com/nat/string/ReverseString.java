@@ -2,7 +2,9 @@ package com.nat.string;
 
 import com.nat.util.PrintHelper;
 import com.nat.util.StringHelper;
-
+/***********************************************
+ * This class has an algorithm to reverse the string with front and back index swaps until the middle.
+ ***********************************************/
 public class ReverseString {
 
     public static String reverse(String str){
@@ -17,5 +19,6 @@ public class ReverseString {
 
     public static void main(String[] a){
         PrintHelper.print(reverse("gear"));
+        PrintHelper.print(reverse("MALAYALAM"));
     }
 }
